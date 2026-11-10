@@ -1,0 +1,93 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - VoidMiners",
+        "order": 0
+      },
+      "projectName": "VoidMiners",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@/Users/adamfraser/Library/Mobile Documents/com~apple~CloudDocs/projects/VoidMiners/build/moddev/clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@/Users/adamfraser/Library/Mobile Documents/com~apple~CloudDocs/projects/VoidMiners/build/moddev/clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dvoidminers%%/Users/adamfraser/Library/Mobile Documents/com~apple~CloudDocs/projects/VoidMiners/bin/main"
+      ],
+      "cwd": "${workspaceFolder}/run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Data",
+      "presentation": {
+        "group": "Mod Development - VoidMiners",
+        "order": 1
+      },
+      "projectName": "VoidMiners",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@/Users/adamfraser/Library/Mobile Documents/com~apple~CloudDocs/projects/VoidMiners/build/moddev/dataRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@/Users/adamfraser/Library/Mobile Documents/com~apple~CloudDocs/projects/VoidMiners/build/moddev/dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003dvoidminers%%/Users/adamfraser/Library/Mobile Documents/com~apple~CloudDocs/projects/VoidMiners/bin/main"
+      ],
+      "cwd": "${workspaceFolder}/run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "GameTestServer",
+      "presentation": {
+        "group": "Mod Development - VoidMiners",
+        "order": 2
+      },
+      "projectName": "VoidMiners",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@/Users/adamfraser/Library/Mobile Documents/com~apple~CloudDocs/projects/VoidMiners/build/moddev/gameTestServerRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@/Users/adamfraser/Library/Mobile Documents/com~apple~CloudDocs/projects/VoidMiners/build/moddev/gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dvoidminers%%/Users/adamfraser/Library/Mobile Documents/com~apple~CloudDocs/projects/VoidMiners/bin/main"
+      ],
+      "cwd": "${workspaceFolder}/run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - VoidMiners",
+        "order": 3
+      },
+      "projectName": "VoidMiners",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@/Users/adamfraser/Library/Mobile Documents/com~apple~CloudDocs/projects/VoidMiners/build/moddev/serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@/Users/adamfraser/Library/Mobile Documents/com~apple~CloudDocs/projects/VoidMiners/build/moddev/serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dvoidminers%%/Users/adamfraser/Library/Mobile Documents/com~apple~CloudDocs/projects/VoidMiners/bin/main"
+      ],
+      "cwd": "${workspaceFolder}/run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}
